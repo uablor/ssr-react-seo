@@ -9,7 +9,7 @@
     "build:client": "vite build --outDir dist/client",
     "build:server": "vite build --ssr src/entry-server.tsx --outDir dist/server",
     "preview": "cross-env NODE_ENV=production node server",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist/client"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.10",
